@@ -1,0 +1,73 @@
+<div class="container  login-box mt-5">
+            <div class="d-flex justify-content-center">
+                <div class="card">
+                    <div class="card-header card-color">
+                        <h3 class="text-center customColor">Register</h3>
+                        <div class="d-flex justify-content-end social_icon">
+                            <span><i class="fab fa-facebook-square m-1 "></i></span>
+                            <span><i class="fab fa-google-plus-square m-1"></i></span>
+                            <span><i class="fab fa-twitter-square m-1"></i></span>
+                        </div>
+                    </div>
+                    <div class="card-body form-color">
+                        <form action="/users" method="post">
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" class="form-control" size="30" placeholder="first name" name="fName">                    
+                            </div>
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" class="form-control" size="30" placeholder="last name" name="lastName">                    
+                            </div>
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" class="form-control" size="30" placeholder="email" name="email">                    
+                            </div>
+                            <div class="input-group form-group ">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                </div>
+                                <input type="password" class="form-control" size="30" placeholder="password" password="password">
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Register" class="btn signup_btn">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer card-color">           
+                        <div class="d-flex justify-content-center links">
+                            <p>Already have an account?<a class="customColor" href="/users/login"> Log In</a></p>                            
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+           .card-color{
+               background-color: rgba(27, 27, 27, 0.815);
+           }
+           .form-color{
+               background-color: rgba(36, 36, 36, 0.904);
+           }
+           .signup_btn{
+               text-align: center;
+               margin-left: 20%;
+               width: 200px;
+               border-radius: 30px;
+               background-color: rgba(98, 214, 150, 0.603);
+           }
+           .customColor{
+               text-decoration: none;
+               color: rgba(98, 214, 150, 0.603)
+           }
+          
+
+        </style>
+
